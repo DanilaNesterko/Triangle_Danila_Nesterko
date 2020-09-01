@@ -65,7 +65,7 @@ namespace Triangle_Danila_Nesterko
             set
             { c = value; }
         }
-        public bool ExistTriangle
+        public bool ExistTriangle //свойство свойства свойства свойства
         {
             get
             {
