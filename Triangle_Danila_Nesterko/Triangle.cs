@@ -48,7 +48,13 @@ namespace Triangle_Danila_Nesterko
             s = Math.Sqrt((p * (p - a) * (p - b) * (p - c)));
             return s;
         }
-       
+        public double Half_Perimeter()
+        {
+            double p = 0;
+            p = a + b + c;
+            p = p / 2;
+            return p;
+        }
         public double GetSetA
         {
             get
